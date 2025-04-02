@@ -13,7 +13,7 @@
 .DEFAULT_GOAL	= all
 
 CC				= cc
-CFLAGS			= -Wall -Wextra -Werror
+# CFLAGS			= -Wall -Wextra -Werror
 CPPFLAGS		= -I./lib/libft -I./lib/mlx -I./$(FDF_PATH)/includes
 LDFLAGS			= -L./lib/libft -L./lib/mlx -framework OpenGL -framework AppKit
 LDLIBS			= -lft -lmlx
