@@ -10,6 +10,8 @@ FDF (\"Fil de Fer\") is a program that reads a map file and visualizes it as a w
 
 ## Controls
 
+It's also written in the manual, which you can view by pressing the 'F1' button.
+
 | Control                             | Action                                        |
 |-------------------------------------|-----------------------------------------------|
 | `Mouse Scroll`                      | Zoom in / Zoom out                            |
@@ -21,7 +23,7 @@ FDF (\"Fil de Fer\") is a program that reads a map file and visualizes it as a w
 | `R`                                 | Reset all transformations                     |
 | `KEY 1~8`                           | Switch between various isometric views        |
 | `NUMPAD 1~9`                        | Switch between general predefined views       |
-| `F1`                                | Toggle manual/help menu                       |
+| `F1`                                | Toggle manual menu                            |
 
 ## Libraries Used
 
@@ -57,14 +59,19 @@ Example:
 
 ## Screenshots
 
-![FDF Screenshot_42](/assets/screenshot_42.png)
-![FDF Screenshot_mars](/assets/screenshot_mars.png)
-![FDF Screenshot_manual](/assets/screenshot_manual.png)
+<img src="/assets/screenshot_42.png" width="800"/>
+<img src="/assets/screenshot_mars.png" width="800"/>
+<img src="/assets/screenshot_manual.png" width="800"/>
 
 ## Demo
 
-![FDF Demo GIF Object Rotation](/assets/object_rotation.gif)
-![FDF Demo GIF Object Translation](/assets/object_translation.gif)
+The first two images are object manipulations, and the last two are camera manipulations, which can rotate and translate respectively.
 
-![FDF Demo GIF Camera Rotation](/assets/camera_rotation.gif)
-![FDF Demo GIF Camera Translation](/assets/camera_translation.gif)
+#### object
+<img src="/assets/object_rotation.gif" width="600"/>
+<img src="/assets/object_translation.gif" width="600"/>
+
+#### camera
+<img src="/assets/camera_rotation.gif" width="600"/>
+<img src="/assets/camera_translation.gif" width="600"/>
+
